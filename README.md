@@ -8,7 +8,9 @@ This task is implemented at [kaggle](https://www.kaggle.com/competitions/nlp-get
 ## Code Description
 [1-data-preprocessing-disaster-tweets.ipynb](https://github.com/ShuyeeKan/kaggle-Natural-Language-Processing-with-Disaster-Tweets/blob/main/1-data-preprocessing-disaster-tweets.ipynb): This code contains several parts of data preprocessing for training set and test set. 
 
-[2-ml-disaster-tweets.ipynb](https://github.com/ShuyeeKan/kaggle-Natural-Language-Processing-with-Disaster-Tweets/blob/main/2-ml-disaster-tweets.ipynb): This code is to construct and train three machine learning models to classify the disaster tweets, such as XGBoost, SVM, Ransom Forest.
+[2-ml-disaster-tweets.ipynb](https://github.com/ShuyeeKan/kaggle-Natural-Language-Processing-with-Disaster-Tweets/blob/main/2-ml-disaster-tweets.ipynb): This code is to construct and train three machine learning models to classify the disaster tweets, such as XGBoost, SVM, Ransom Forest, and evaluate the performance with validation accuracy.
+
+[3-bert-disaster-tweets.ipynb](https://github.com/ShuyeeKan/kaggle-Natural-Language-Processing-with-Disaster-Tweets/blob/main/3-bert-disaster-tweets.ipynb): This code is to train BERT model to classify the disaster tweets and evaluate the performance with validation accuracy. 
 
 [4-zero-shot-classification-disaster-tweets.ipynb](https://github.com/ShuyeeKan/kaggle-Natural-Language-Processing-with-Disaster-Tweets/blob/main/4-zero-shot-classification-disaster-tweets.ipynb): In this notebook, I explore the zero-shot classification using the Hugging Face library.
 
