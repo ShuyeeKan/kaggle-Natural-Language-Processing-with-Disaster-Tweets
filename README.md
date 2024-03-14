@@ -1,16 +1,19 @@
 # kaggle-Natural-Language-Processing-with-Disaster-Tweets
-## Task Discription
+## Task Description
 In the disaster tweets classification task, I will build some machine learning models to train and predict which tweets are about real disaster (label = 1) and which one’s aren’t (label = 0).
 
 ## Implementation
 This task is implemented at [kaggle](https://www.kaggle.com/competitions/nlp-getting-started/overview) with CPU and GPU T4 x2 in Python.
 
-## Code Discription
+## Code Description
 [1-data-preprocessing-disaster-tweets.ipynb](https://github.com/ShuyeeKan/kaggle-Natural-Language-Processing-with-Disaster-Tweets/blob/main/1-data-preprocessing-disaster-tweets.ipynb): This code contains several parts of data preprocessing for training set and test set. 
 
 [2-ml-disaster-tweets.ipynb](https://github.com/ShuyeeKan/kaggle-Natural-Language-Processing-with-Disaster-Tweets/blob/main/2-ml-disaster-tweets.ipynb): This code is to construct and train three machine learning models to classify the disaster tweets, such as XGBoost, SVM, Ransom Forest.
 
 [4-zero-shot-classification-disaster-tweets.ipynb](https://github.com/ShuyeeKan/kaggle-Natural-Language-Processing-with-Disaster-Tweets/blob/main/4-zero-shot-classification-disaster-tweets.ipynb): In this notebook, I explore the zero-shot classification using the Hugging Face library.
+
+## Data Description
+[disaster tweets 3 tokenizers data (Testset)](https://github.com/ShuyeeKan/kaggle-Natural-Language-Processing-with-Disaster-Tweets/tree/main/disaster%20tweets%203%20tokenizers%20data%20(Testset)): Contain the preprocessed results with [1-data-preprocessing-disaster-tweets.ipynb](https://github.com/ShuyeeKan/kaggle-Natural-Language-Processing-with-Disaster-Tweets/blob/main/1-data-preprocessing-disaster-tweets.ipynb) on Test set.
 
 ## Reference
 * Tutorial document
