@@ -14,6 +14,14 @@ This task is implemented at [kaggle](https://www.kaggle.com/competitions/nlp-get
 
 ## Data Description
 [disaster tweets 3 tokenizers data (Testset)](https://github.com/ShuyeeKan/kaggle-Natural-Language-Processing-with-Disaster-Tweets/tree/main/disaster%20tweets%203%20tokenizers%20data%20(Testset)): Contain the preprocessed results with [1-data-preprocessing-disaster-tweets.ipynb](https://github.com/ShuyeeKan/kaggle-Natural-Language-Processing-with-Disaster-Tweets/blob/main/1-data-preprocessing-disaster-tweets.ipynb) on Test set.
+  * test_e.csv: preprocessed test set with TreebankWordTokenizer
+  * test_u.csv: preprocessed test set with WordPunctTokenizer
+  * test_s.csv: preprocessed test set with WhitespaceTokenizer
+
+[Prediction](https://github.com/ShuyeeKan/kaggle-Natural-Language-Processing-with-Disaster-Tweets/tree/main/Prediction): Contain the predicted results on test set and sumbit at kaggle.
+  * test_prediction.csv: The best result predicted by BERT model.
+  * SVM_penn_tokens_prediction.csv: The result predicted by SVM model (data tokenized by TreebankWordTokenizer).
+  * zero_shot_submission.csv: The result predicted by pre-trained model in zero-shot way.
 
 ## Reference
 * Tutorial document
